@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Buttons</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>wifi</string>
+			<key>defaults</key>
+			<string>com.ripdev.hood</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>get</key>
+			<string>get:</string>
+			<key>key</key>
+			<string>Button1</string>
+			<key>label</key>
+			<string>Button 1</string>
+			<key>set</key>
+			<string>set:specifier:</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Bluetooth Toggle</string>
+				<string>EDGE Toggle</string>
+				<string>Quit App</string>
+				<string>Wi-Fi Toggle</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string></string>
+				<string>bluetooth</string>
+				<string>edge</string>
+				<string>quit</string>
+				<string>wifi</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>bluetooth</string>
+			<key>defaults</key>
+			<string>com.ripdev.hood</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>get</key>
+			<string>get:</string>
+			<key>key</key>
+			<string>Button2</string>
+			<key>label</key>
+			<string>Button 2</string>
+			<key>set</key>
+			<string>set:specifier:</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Bluetooth Toggle</string>
+				<string>EDGE Toggle</string>
+				<string>Quit App</string>
+				<string>Wi-Fi Toggle</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string></string>
+				<string>bluetooth</string>
+				<string>edge</string>
+				<string>quit</string>
+				<string>wifi</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>edge</string>
+			<key>defaults</key>
+			<string>com.ripdev.hood</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>get</key>
+			<string>get:</string>
+			<key>key</key>
+			<string>Button3</string>
+			<key>label</key>
+			<string>Button 3</string>
+			<key>set</key>
+			<string>set:specifier:</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Bluetooth Toggle</string>
+				<string>EDGE Toggle</string>
+				<string>Quit App</string>
+				<string>Wi-Fi Toggle</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string></string>
+				<string>bluetooth</string>
+				<string>edge</string>
+				<string>quit</string>
+				<string>wifi</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>quit</string>
+			<key>defaults</key>
+			<string>com.ripdev.hood</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>get</key>
+			<string>get:</string>
+			<key>key</key>
+			<string>Button4</string>
+			<key>label</key>
+			<string>Button 4</string>
+			<key>set</key>
+			<string>set:specifier:</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Bluetooth Toggle</string>
+				<string>EDGE Toggle</string>
+				<string>Quit App</string>
+				<string>Wi-Fi Toggle</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string></string>
+				<string>bluetooth</string>
+				<string>edge</string>
+				<string>quit</string>
+				<string>wifi</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Advanced</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ripdev.hood</string>
+			<key>get</key>
+			<string>get:</string>
+			<key>key</key>
+			<string>EnableProcessList</string>
+			<key>label</key>
+			<string>Enable Process List</string>
+			<key>set</key>
+			<string>set:specifier:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Hood</string>
+</dict>
+</plist>

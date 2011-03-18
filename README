@@ -1,0 +1,15 @@
+This is Hood, a Mobile Enhancer addon that adds quickly accessible panel allowing
+to turn on/off WiFi, GPRS and so on (similar to SBSettings, but much more lightweight).
+It also can view the list of processes and kill them. Note that this was not tested on
+modern iOS firmware versions or newer Xcode versions, so use at your own risk. It should
+be fairly easy to make this a MobileSubstrate module, if someone wants to take this task.
+
+You are free to clone, fork, or pick up and carry this on, if you'd like.
+
+Copyright (c) 2009, Ripdev:
+  - Slava "slavikus" Karpenko
+  - Cyril Murzin
+
+Please refer to the license for the distribution terms.
+
+Peace.

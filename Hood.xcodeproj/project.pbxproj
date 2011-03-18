@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F917E5710EDB33E400AF5482 /* RipHoodEDGEIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F917E56F0EDB33E400AF5482 /* RipHoodEDGEIcon.png */; };
+		F917E5720EDB33E400AF5482 /* RipHoodEDGEIconOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F917E5700EDB33E400AF5482 /* RipHoodEDGEIconOff.png */; };
+		F917E5C30EDB44B900AF5482 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F917E5C20EDB44B900AF5482 /* Preferences.framework */; };
+		F9332F121008C85F003FF514 /* MobileWiFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9332F111008C85F003FF514 /* MobileWiFi.framework */; };
+		F95BC1F40ED8B14B00095637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F95BC23C0ED8B14E00095637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F95BC25C0ED8B15200095637 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		F95BC26D0ED8B1B500095637 /* RipHoodBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B9660ED8AC210032F416 /* RipHoodBackground.png */; };
+		F95BC2A20ED8BA6600095637 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* Info.plist */; };
+		F95BC3C80ED9847B00095637 /* RipPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F95BC3C70ED9847B00095637 /* RipPieChartView.m */; };
+		F95BC3CB0ED985EC00095637 /* RipHoodAirportIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F95BC3CA0ED985EC00095637 /* RipHoodAirportIcon.png */; };
+		F95BC3CD0ED985F400095637 /* RipPieChartOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = F95BC3CC0ED985F400095637 /* RipPieChartOverlay.png */; };
+		F95BC3CF0ED9867500095637 /* RipHoodBluetoothIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F95BC3CE0ED9867500095637 /* RipHoodBluetoothIcon.png */; };
+		F9740BDA0EDDEE3800CBC904 /* RipHoodProcessListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9740BD90EDDEE3800CBC904 /* RipHoodProcessListController.m */; };
+		F9740C0E0EDDF2AF00CBC904 /* RipHoodSlidingDisclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = F9740C0D0EDDF2AF00CBC904 /* RipHoodSlidingDisclosure.png */; };
+		F9740C280EDDF86A00CBC904 /* RipHoodProcessListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9740C270EDDF86A00CBC904 /* RipHoodProcessListCell.m */; };
+		F9740D410EDECCF500CBC904 /* RipHoodDefaultAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9740D400EDECCF500CBC904 /* RipHoodDefaultAppIcon.png */; };
+		F9768A8C0EE7080D006F7A92 /* HoodKill.c in Sources */ = {isa = PBXBuildFile; fileRef = F9768A8B0EE7080D006F7A92 /* HoodKill.c */; };
+		F989760D0ED9A7F400080E7C /* RipHoodBluetoothIconOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F989760B0ED9A7F400080E7C /* RipHoodBluetoothIconOff.png */; };
+		F989760E0ED9A7F400080E7C /* RipHoodAirportIconOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F989760C0ED9A7F400080E7C /* RipHoodAirportIconOff.png */; };
+		F989761C0ED9A94600080E7C /* RipHoodRespringIconOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F989761A0ED9A94600080E7C /* RipHoodRespringIconOff.png */; };
+		F989761D0ED9A94600080E7C /* RipHoodRespringIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F989761B0ED9A94600080E7C /* RipHoodRespringIcon.png */; };
+		F989775F0ED9C06A00080E7C /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F989775E0ED9C06A00080E7C /* BluetoothManager.framework */; };
+		F98977920ED9C4C000080E7C /* SpringBoardServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98977910ED9C4C000080E7C /* SpringBoardServices.framework */; };
+		F9AB70680EE2B1470038CEB7 /* RipHoodSSHIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AB70640EE2B1470038CEB7 /* RipHoodSSHIcon.png */; };
+		F9AB70690EE2B1470038CEB7 /* RipHoodVPNIconOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AB70650EE2B1470038CEB7 /* RipHoodVPNIconOff.png */; };
+		F9AB706A0EE2B1470038CEB7 /* RipHoodSSHIconOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AB70660EE2B1470038CEB7 /* RipHoodSSHIconOff.png */; };
+		F9AB706B0EE2B1470038CEB7 /* RipHoodVPNIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AB70670EE2B1470038CEB7 /* RipHoodVPNIcon.png */; };
+		F9BC39500EEACBD1003678D9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BC394F0EEACBD1003678D9 /* CoreTelephony.framework */; };
+		F9E0B96A0ED8AE430032F416 /* RipHoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B9680ED8AE430032F416 /* RipHoodController.m */; };
+		F9E0B96F0ED8AFD30032F416 /* RipHood.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E0B9640ED8AC080032F416 /* RipHood.xib */; };
+		F9E0B9720ED8AFEE0032F416 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9E0B9710ED8AFEE0032F416 /* main.mm */; };
+		F9EBD5930EE873910039325F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F9EBD63F0EE8739D0039325F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F9EBD6400EE8739D0039325F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		F9EBD6450EE877450039325F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EBD6430EE877450039325F /* icon.png */; };
+		F9EBD6600EE878F60039325F /* HoodPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBD65F0EE878F60039325F /* HoodPrefsController.m */; };
+		F9EBD6630EE8799F0039325F /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F917E5C20EDB44B900AF5482 /* Preferences.framework */; };
+		F9EBD6850EE87D170039325F /* HoodPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EBD6840EE87D170039325F /* HoodPrefs.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9768A9B0EE731C6006F7A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9768A860EE707F5006F7A92;
+			remoteInfo = HoodKill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F917E56F0EDB33E400AF5482 /* RipHoodEDGEIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodEDGEIcon.png; sourceTree = "<group>"; };
+		F917E5700EDB33E400AF5482 /* RipHoodEDGEIconOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodEDGEIconOff.png; sourceTree = "<group>"; };
+		F917E5B80EDB448F00AF5482 /* PSSystemConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSSystemConfiguration.h; path = ../SDK/2.0/Preferences/PSSystemConfiguration.h; sourceTree = SOURCE_ROOT; };
+		F917E5C20EDB44B900AF5482 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = System/Library/PrivateFrameworks/Preferences.framework; sourceTree = SDKROOT; };
+		F9332F111008C85F003FF514 /* MobileWiFi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileWiFi.framework; path = System/Library/PrivateFrameworks/MobileWiFi.framework; sourceTree = SDKROOT; };
+		F95BC2810ED8B86A00095637 /* objc-patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-patch.h"; path = "../SDK/objc-patch.h"; sourceTree = "<group>"; };
+		F95BC3C60ED9847B00095637 /* RipPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RipPieChartView.h; sourceTree = "<group>"; };
+		F95BC3C70ED9847B00095637 /* RipPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RipPieChartView.m; sourceTree = "<group>"; };
+		F95BC3CA0ED985EC00095637 /* RipHoodAirportIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodAirportIcon.png; sourceTree = "<group>"; };
+		F95BC3CC0ED985F400095637 /* RipPieChartOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipPieChartOverlay.png; sourceTree = "<group>"; };
+		F95BC3CE0ED9867500095637 /* RipHoodBluetoothIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodBluetoothIcon.png; sourceTree = "<group>"; };
+		F9740BD80EDDEE3800CBC904 /* RipHoodProcessListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RipHoodProcessListController.h; sourceTree = "<group>"; };
+		F9740BD90EDDEE3800CBC904 /* RipHoodProcessListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RipHoodProcessListController.m; sourceTree = "<group>"; };
+		F9740C0D0EDDF2AF00CBC904 /* RipHoodSlidingDisclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodSlidingDisclosure.png; sourceTree = "<group>"; };
+		F9740C260EDDF86A00CBC904 /* RipHoodProcessListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RipHoodProcessListCell.h; sourceTree = "<group>"; };
+		F9740C270EDDF86A00CBC904 /* RipHoodProcessListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RipHoodProcessListCell.m; sourceTree = "<group>"; };
+		F9740D400EDECCF500CBC904 /* RipHoodDefaultAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodDefaultAppIcon.png; sourceTree = "<group>"; };
+		F9768A870EE707F5006F7A92 /* HoodKill */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HoodKill; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9768A8B0EE7080D006F7A92 /* HoodKill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HoodKill.c; sourceTree = "<group>"; };
+		F989760B0ED9A7F400080E7C /* RipHoodBluetoothIconOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodBluetoothIconOff.png; sourceTree = "<group>"; };
+		F989760C0ED9A7F400080E7C /* RipHoodAirportIconOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodAirportIconOff.png; sourceTree = "<group>"; };
+		F989761A0ED9A94600080E7C /* RipHoodRespringIconOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodRespringIconOff.png; sourceTree = "<group>"; };
+		F989761B0ED9A94600080E7C /* RipHoodRespringIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodRespringIcon.png; sourceTree = "<group>"; };
+		F98976F60ED9B98F00080E7C /* Apple80211.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple80211.h; sourceTree = "<group>"; };
+		F989775E0ED9C06A00080E7C /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluetoothManager.framework; path = System/Library/PrivateFrameworks/BluetoothManager.framework; sourceTree = SDKROOT; };
+		F98977610ED9C07700080E7C /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		F98977910ED9C4C000080E7C /* SpringBoardServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpringBoardServices.framework; path = System/Library/PrivateFrameworks/SpringBoardServices.framework; sourceTree = SDKROOT; };
+		F9AB70640EE2B1470038CEB7 /* RipHoodSSHIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodSSHIcon.png; sourceTree = "<group>"; };
+		F9AB70650EE2B1470038CEB7 /* RipHoodVPNIconOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodVPNIconOff.png; sourceTree = "<group>"; };
+		F9AB70660EE2B1470038CEB7 /* RipHoodSSHIconOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodSSHIconOff.png; sourceTree = "<group>"; };
+		F9AB70670EE2B1470038CEB7 /* RipHoodVPNIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodVPNIcon.png; sourceTree = "<group>"; };
+		F9BC394F0EEACBD1003678D9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/PrivateFrameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F9E0B95C0ED8AB940032F416 /* Hood.men */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hood.men; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E0B9640ED8AC080032F416 /* RipHood.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RipHood.xib; sourceTree = "<group>"; };
+		F9E0B9660ED8AC210032F416 /* RipHoodBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RipHoodBackground.png; sourceTree = "<group>"; };
+		F9E0B9670ED8AE430032F416 /* RipHoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RipHoodController.h; sourceTree = "<group>"; };
+		F9E0B9680ED8AE430032F416 /* RipHoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RipHoodController.m; sourceTree = "<group>"; };
+		F9E0B9710ED8AFEE0032F416 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		F9EBD57C0EE873160039325F /* HoodPrefs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoodPrefs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EBD58B0EE8733C0039325F /* HoodPref_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HoodPref_Info.plist; sourceTree = "<group>"; };
+		F9EBD6430EE877450039325F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F9EBD65E0EE878F60039325F /* HoodPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoodPrefsController.h; sourceTree = "<group>"; };
+		F9EBD65F0EE878F60039325F /* HoodPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoodPrefsController.m; sourceTree = "<group>"; };
+		F9EBD6840EE87D170039325F /* HoodPrefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HoodPrefs.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9768A850EE707F5006F7A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E0B95A0ED8AB940032F416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95BC1F40ED8B14B00095637 /* UIKit.framework in Frameworks */,
+				F95BC23C0ED8B14E00095637 /* Foundation.framework in Frameworks */,
+				F95BC25C0ED8B15200095637 /* CoreGraphics.framework in Frameworks */,
+				F989775F0ED9C06A00080E7C /* BluetoothManager.framework in Frameworks */,
+				F98977920ED9C4C000080E7C /* SpringBoardServices.framework in Frameworks */,
+				F917E5C30EDB44B900AF5482 /* Preferences.framework in Frameworks */,
+				F9BC39500EEACBD1003678D9 /* CoreTelephony.framework in Frameworks */,
+				F9332F121008C85F003FF514 /* MobileWiFi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EBD57A0EE873160039325F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBD6630EE8799F0039325F /* Preferences.framework in Frameworks */,
+				F9EBD63F0EE8739D0039325F /* Foundation.framework in Frameworks */,
+				F9EBD6400EE8739D0039325F /* CoreGraphics.framework in Frameworks */,
+				F9EBD5930EE873910039325F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Hood */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0B9710ED8AFEE0032F416 /* main.mm */,
+				F95BC2810ED8B86A00095637 /* objc-patch.h */,
+				F9E0B9670ED8AE430032F416 /* RipHoodController.h */,
+				F9E0B9680ED8AE430032F416 /* RipHoodController.m */,
+				F9740BD80EDDEE3800CBC904 /* RipHoodProcessListController.h */,
+				F9740BD90EDDEE3800CBC904 /* RipHoodProcessListController.m */,
+				F9740C260EDDF86A00CBC904 /* RipHoodProcessListCell.h */,
+				F9740C270EDDF86A00CBC904 /* RipHoodProcessListCell.m */,
+				F95BC3C60ED9847B00095637 /* RipPieChartView.h */,
+				F95BC3C70ED9847B00095637 /* RipPieChartView.m */,
+				F98976F60ED9B98F00080E7C /* Apple80211.h */,
+				F98977610ED9C07700080E7C /* BluetoothManager.h */,
+				F917E5B80EDB448F00AF5482 /* PSSystemConfiguration.h */,
+				F9768A8B0EE7080D006F7A92 /* HoodKill.c */,
+			);
+			name = Hood;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0B95C0ED8AB940032F416 /* Hood.men */,
+				F9768A870EE707F5006F7A92 /* HoodKill */,
+				F9EBD57C0EE873160039325F /* HoodPrefs.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBD65D0EE878E40039325F /* HoodPrefs */,
+				080E96DDFE201D6D7F000001 /* Hood */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBD6840EE87D170039325F /* HoodPrefs.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				F9EBD58B0EE8733C0039325F /* HoodPref_Info.plist */,
+				F9E0B9660ED8AC210032F416 /* RipHoodBackground.png */,
+				F95BC3CA0ED985EC00095637 /* RipHoodAirportIcon.png */,
+				F95BC3CE0ED9867500095637 /* RipHoodBluetoothIcon.png */,
+				F95BC3CC0ED985F400095637 /* RipPieChartOverlay.png */,
+				F9E0B9640ED8AC080032F416 /* RipHood.xib */,
+				F9740D400EDECCF500CBC904 /* RipHoodDefaultAppIcon.png */,
+				F9740C0D0EDDF2AF00CBC904 /* RipHoodSlidingDisclosure.png */,
+				F917E56F0EDB33E400AF5482 /* RipHoodEDGEIcon.png */,
+				F917E5700EDB33E400AF5482 /* RipHoodEDGEIconOff.png */,
+				F989760B0ED9A7F400080E7C /* RipHoodBluetoothIconOff.png */,
+				F989760C0ED9A7F400080E7C /* RipHoodAirportIconOff.png */,
+				F989761A0ED9A94600080E7C /* RipHoodRespringIconOff.png */,
+				F989761B0ED9A94600080E7C /* RipHoodRespringIcon.png */,
+				F9AB70640EE2B1470038CEB7 /* RipHoodSSHIcon.png */,
+				F9AB70650EE2B1470038CEB7 /* RipHoodVPNIconOff.png */,
+				F9AB70660EE2B1470038CEB7 /* RipHoodSSHIconOff.png */,
+				F9AB70670EE2B1470038CEB7 /* RipHoodVPNIcon.png */,
+				F9EBD6430EE877450039325F /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9BC394F0EEACBD1003678D9 /* CoreTelephony.framework */,
+				F917E5C20EDB44B900AF5482 /* Preferences.framework */,
+				F98977910ED9C4C000080E7C /* SpringBoardServices.framework */,
+				F989775E0ED9C06A00080E7C /* BluetoothManager.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				F9332F111008C85F003FF514 /* MobileWiFi.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9EBD65D0EE878E40039325F /* HoodPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBD65E0EE878F60039325F /* HoodPrefsController.h */,
+				F9EBD65F0EE878F60039325F /* HoodPrefsController.m */,
+			);
+			name = HoodPrefs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9768A860EE707F5006F7A92 /* HoodKill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9768A8D0EE7080D006F7A92 /* Build configuration list for PBXNativeTarget "HoodKill" */;
+			buildPhases = (
+				F9768A840EE707F5006F7A92 /* Sources */,
+				F9768A850EE707F5006F7A92 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoodKill;
+			productName = HoodKill;
+			productReference = F9768A870EE707F5006F7A92 /* HoodKill */;
+			productType = "com.apple.product-type.tool";
+		};
+		F9E0B95B0ED8AB940032F416 /* Hood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E0B9600ED8ABB30032F416 /* Build configuration list for PBXNativeTarget "Hood" */;
+			buildPhases = (
+				F9E0B9730ED8AFEE0032F416 /* Resources */,
+				F9E0B9590ED8AB940032F416 /* Sources */,
+				F9E0B95A0ED8AB940032F416 /* Frameworks */,
+				F98974EA0ED98A3E00080E7C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9768A9C0EE731C6006F7A92 /* PBXTargetDependency */,
+			);
+			name = Hood;
+			productName = Hood;
+			productReference = F9E0B95C0ED8AB940032F416 /* Hood.men */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F9EBD57B0EE873160039325F /* HoodPrefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EBD58A0EE873280039325F /* Build configuration list for PBXNativeTarget "HoodPrefs" */;
+			buildPhases = (
+				F9EBD5770EE873160039325F /* Resources */,
+				F9EBD5790EE873160039325F /* Sources */,
+				F9EBD57A0EE873160039325F /* Frameworks */,
+				F9EBD6690EE879E00039325F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoodPrefs;
+			productName = HoodPrefs;
+			productReference = F9EBD57C0EE873160039325F /* HoodPrefs.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hood" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E0B95B0ED8AB940032F416 /* Hood */,
+				F9768A860EE707F5006F7A92 /* HoodKill */,
+				F9EBD57B0EE873160039325F /* HoodPrefs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E0B9730ED8AFEE0032F416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E0B96F0ED8AFD30032F416 /* RipHood.xib in Resources */,
+				F95BC26D0ED8B1B500095637 /* RipHoodBackground.png in Resources */,
+				F95BC2A20ED8BA6600095637 /* Info.plist in Resources */,
+				F95BC3CB0ED985EC00095637 /* RipHoodAirportIcon.png in Resources */,
+				F95BC3CD0ED985F400095637 /* RipPieChartOverlay.png in Resources */,
+				F95BC3CF0ED9867500095637 /* RipHoodBluetoothIcon.png in Resources */,
+				F989760D0ED9A7F400080E7C /* RipHoodBluetoothIconOff.png in Resources */,
+				F989760E0ED9A7F400080E7C /* RipHoodAirportIconOff.png in Resources */,
+				F989761C0ED9A94600080E7C /* RipHoodRespringIconOff.png in Resources */,
+				F989761D0ED9A94600080E7C /* RipHoodRespringIcon.png in Resources */,
+				F917E5710EDB33E400AF5482 /* RipHoodEDGEIcon.png in Resources */,
+				F917E5720EDB33E400AF5482 /* RipHoodEDGEIconOff.png in Resources */,
+				F9740C0E0EDDF2AF00CBC904 /* RipHoodSlidingDisclosure.png in Resources */,
+				F9740D410EDECCF500CBC904 /* RipHoodDefaultAppIcon.png in Resources */,
+				F9AB70680EE2B1470038CEB7 /* RipHoodSSHIcon.png in Resources */,
+				F9AB70690EE2B1470038CEB7 /* RipHoodVPNIconOff.png in Resources */,
+				F9AB706A0EE2B1470038CEB7 /* RipHoodSSHIconOff.png in Resources */,
+				F9AB706B0EE2B1470038CEB7 /* RipHoodVPNIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EBD5770EE873160039325F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBD6450EE877450039325F /* icon.png in Resources */,
+				F9EBD6850EE87D170039325F /* HoodPrefs.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F98974EA0ED98A3E00080E7C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"${TARGET_BUILD_DIR}/HoodKill\" \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\nstrip -urx \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\"\ncodesign -fs ripdev.com \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\"\n";
+		};
+		F9EBD6690EE879E00039325F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#cp \"${TARGET_BUILD_DIR}/HoodKill\" \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\nstrip -urx \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\"\ncodesign -fs ripdev.com \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9768A840EE707F5006F7A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9768A8C0EE7080D006F7A92 /* HoodKill.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E0B9590ED8AB940032F416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E0B96A0ED8AE430032F416 /* RipHoodController.m in Sources */,
+				F9E0B9720ED8AFEE0032F416 /* main.mm in Sources */,
+				F95BC3C80ED9847B00095637 /* RipPieChartView.m in Sources */,
+				F9740BDA0EDDEE3800CBC904 /* RipHoodProcessListController.m in Sources */,
+				F9740C280EDDF86A00CBC904 /* RipHoodProcessListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EBD5790EE873160039325F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBD6600EE878F60039325F /* HoodPrefsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9768A9C0EE731C6006F7A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9768A860EE707F5006F7A92 /* HoodKill */;
+			targetProxy = F9768A9B0EE731C6006F7A92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ..;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DOSX20_TARGET=1";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = ripdev.com;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ..;
+				OTHER_CFLAGS = (
+					"-DOSX20_TARGET=1",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		F9768A890EE707F6006F7A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = HoodKill;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		F9768A8A0EE707F6006F7A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HoodKill;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F9E0B95E0ED8AB940032F416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = Hood;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = men;
+			};
+			name = Debug;
+		};
+		F9E0B95F0ED8AB940032F416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				PREBINDING = NO;
+				PRODUCT_NAME = Hood;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = men;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F9EBD57D0EE873170039325F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = HoodPrefs;
+			};
+			name = Debug;
+		};
+		F9EBD57E0EE873170039325F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = (
+					..,
+					../SDK/2.0/,
+				);
+				INFOPLIST_FILE = HoodPref_Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = HoodPrefs;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9768A8D0EE7080D006F7A92 /* Build configuration list for PBXNativeTarget "HoodKill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9768A890EE707F6006F7A92 /* Debug */,
+				F9768A8A0EE707F6006F7A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E0B9600ED8ABB30032F416 /* Build configuration list for PBXNativeTarget "Hood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E0B95E0ED8AB940032F416 /* Debug */,
+				F9E0B95F0ED8AB940032F416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EBD58A0EE873280039325F /* Build configuration list for PBXNativeTarget "HoodPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EBD57D0EE873170039325F /* Debug */,
+				F9EBD57E0EE873170039325F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
